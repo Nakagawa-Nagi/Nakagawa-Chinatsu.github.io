@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>CHinaTsu</title>
+  
+  
+  <link href="http://example.com/atom.xml" rel="self"/>
+  
+  <link href="http://example.com/"/>
+  <updated>2022-10-26T04:35:55.933Z</updated>
+  <id>http://example.com/</id>
+  
+  <author>
+    <name>John Doe</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title></title>
+    <link href="http://example.com/2022/10/26/README/"/>
+    <id>http://example.com/2022/10/26/README/</id>
+    <published>2022-10-26T14:08:11.890Z</published>
+    <updated>2022-10-26T04:35:55.933Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="hexo-theme-stellar"><a href="#hexo-theme-stellar" class="headerlink" title="hexo-theme-stellar"></a>hexo-theme-stellar</h1><p>Elegant and powerful theme for Hexo.</p><h2 id="Getting-Started"><a href="#Getting-Started" class="headerlink" title="Getting Started"></a>Getting Started</h2><p>Check your environment:</p><figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">Hexo:</span> <span class="number">5.4</span><span class="number">.0</span></span><br><span class="line"><span class="attr">hexo-cli:</span> <span class="number">4.3</span><span class="number">.0</span></span><br><span class="line"><span class="attr">node.js:</span> <span class="number">14.17</span><span class="number">.3</span> <span class="string">LTS</span></span><br><span class="line"><span class="attr">npm:</span> <span class="number">6.14</span><span class="number">.13</span> <span class="string">LTS</span></span><br></pre></td></tr></table></figure><p>Edit your <code>_config.yml</code>:</p><figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">theme:</span> <span class="string">stellar</span></span><br></pre></td></tr></table></figure><p>Install Stellar in terminal:</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm i hexo-theme-stellar</span><br></pre></td></tr></table></figure><h2 id="Usage"><a href="#Usage" class="headerlink" title="Usage"></a>Usage</h2><p>See docs: <a href="https://xaoxuu.com/wiki/stellar/">https://xaoxuu.com/wiki/stellar/</a></p><h2 id="Examples"><a href="#Examples" class="headerlink" title="Examples"></a>Examples</h2><p><a href="https://xaoxuu.com/">https://xaoxuu.com</a></p><h2 id="Feedback"><a href="#Feedback" class="headerlink" title="Feedback"></a>Feedback</h2><p>Issues: <a href="https://github.com/xaoxuu/hexo-theme-stellar/issues/">https://github.com/xaoxuu/hexo-theme-stellar/issues/</a></p><p>Discussions: <a href="https://github.com/xaoxuu/hexo-theme-stellar/discussions/">https://github.com/xaoxuu/hexo-theme-stellar/discussions/</a></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;hexo-theme-stellar&quot;&gt;&lt;a href=&quot;#hexo-theme-stellar&quot; class=&quot;headerlink&quot; title=&quot;hexo-theme-stellar&quot;&gt;&lt;/a&gt;hexo-theme-stellar&lt;/h1&gt;&lt;p&gt;Elegan</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="http://example.com/2022/10/25/Hello-World-0/"/>
+    <id>http://example.com/2022/10/25/Hello-World-0/</id>
+    <published>2022-10-25T09:43:34.000Z</published>
+    <updated>2022-10-26T13:31:59.477Z</updated>
+    
+    <content type="html"><![CDATA[<p>请问widgets.yml中的recent无法加载出来什么原因，rss是什么文件（感谢</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">recent:</span><br><span class="line">  layout: recent</span><br><span class="line">  rss: /auto.xml</span><br><span class="line">  limit: 5</span><br></pre></td></tr></table></figure><p>还有就是左上blog界面时blog会高亮，而wiki界面时无法高亮，请问怎么解决（感谢</p><p><img src="C:\Users\CBDea\AppData\Roaming\marktext\images\2022-10-26-16-03-51-image.png"><img src="C:\Users\CBDea\AppData\Roaming\marktext\images\2022-10-26-16-04-14-image.png"></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;请问widgets.yml中的recent无法加载出来什么原因，rss是什么文件（感谢&lt;/p&gt;
+&lt;figure class=&quot;highlight plaintext&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="http://example.com/2022/10/25/hello-world/"/>
+    <id>http://example.com/2022/10/25/hello-world/</id>
+    <published>2022-10-25T09:16:56.734Z</published>
+    <updated>2022-10-25T09:50:32.764Z</updated>
+    
+    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt; for</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+</feed>
