@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>CHinaTsu</title>
+  
+  
+  <link href="http://example.com/atom.xml" rel="self"/>
+  
+  <link href="http://example.com/"/>
+  <updated>2022-10-26T07:28:50.935Z</updated>
+  <id>http://example.com/</id>
+  
+  <author>
+    <name>John Doe</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="http://example.com/2022/10/25/Hello-World-0/"/>
+    <id>http://example.com/2022/10/25/Hello-World-0/</id>
+    <published>2022-10-25T09:43:34.000Z</published>
+    <updated>2022-10-26T07:28:50.935Z</updated>
+    
+    <content type="html"><![CDATA[<p>@</p><p>1.可以使用本地图片，所有引用的资源的根目录在博客根目录中的soures下，目录前加“/“<br>Example:<br><code>favicon: /src/icon.png</code> (真实路径是<u>blog/soures/src/icon.png</u>)其他同理<br>2.笔记可以通过模板创建：blog下 hexo new (title) 创建一个文章，保存在\source_posts下，相同名称后加”-x”累计<br>Example:<br><code>hexo new 123</code> ：生成123.md，有相同文件则123-0.md<br>进入\source_posts编辑所建立的博客<br>可以直接用记事本编辑需要手动写代码，追求效率的话使用mark text编辑（英文）</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;@&lt;/p&gt;
+&lt;p&gt;1.可以使用本地图片，所有引用的资源的根目录在博客根目录中的soures下，目录前加“/“&lt;br&gt;Example:&lt;br&gt;&lt;code&gt;favicon: /src/icon.png&lt;/code&gt; (真实路径是&lt;u&gt;blog/soures/src/icon.p</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="http://example.com/2022/10/25/hello-world/"/>
+    <id>http://example.com/2022/10/25/hello-world/</id>
+    <published>2022-10-25T09:16:56.734Z</published>
+    <updated>2022-10-25T09:50:32.764Z</updated>
+    
+    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt; for</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+</feed>
