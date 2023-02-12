@@ -22,7 +22,7 @@
   .el-notification__content p {
     color: #000;
   }
-  .el-notification .left,.has-gutter,.el-table__body-wrapper .is-scrolling-none,.card-body,.el-upload-dragger,.team .member-info,.team,.aplayer,.aplayer-body,.aplayer-music,.aplayer-lrc.aplayer-controller,.aplayer-list {
+  .el-notification .left,.has-gutter,.el-table__body-wrapper .is-scrolling-none,.card-body,.el-upload-dragger,.team .member-info,.team{
     background: #000;
     background-color: #000;
   }
