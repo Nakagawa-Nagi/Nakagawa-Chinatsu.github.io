@@ -168,6 +168,11 @@ const ap = new APlayer({
         cover: 'music/Martin Garrix - Oops.mp3.jpg'
     },
     {
+        name: '99 - MOB CHOIR',
+        url: 'music/99 - MOB CHOIR.m4a',
+        cover: 'music/99 - MOB CHOIR.m4a'
+    },
+    {
         name: '光るなら - Goose house',
         url: 'music/光るなら - Goose house.m4a',
         
