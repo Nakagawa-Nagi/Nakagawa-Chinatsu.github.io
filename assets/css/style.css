@@ -1607,7 +1607,7 @@ section {
 .searchButton {
   width: 40px;
   height: 36px;
-  border-bottom: 1px solid #FFFFFF;
+  border-bottom: 1px #99d410;
   border-left: none;
   border-top: none;
   border-right: none;
@@ -1627,6 +1627,12 @@ section {
   height: 36px;
   outline: none;
   background-color: rgba(0, 0, 0, 0);
+  transition: all 0.3s;
+}
+
+.searchTerm:hover { 
+  border-bottom: 1px solid #7B68EE;
+  transition: all 0.3s;
 }
 
 .searchTerm focus{
