@@ -170,7 +170,6 @@ const ap = new APlayer({
     {
         name: '99 - MOB CHOIR',
         url: 'music/99 - MOB CHOIR.m4a',
-        cover: 'music/99 - MOB CHOIR.m4a'
     },
     {
         name: '光るなら - Goose house',
