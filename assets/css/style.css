@@ -22,7 +22,7 @@
   .el-notification__content p {
     color: #000;
   }
-  .el-notification .left,.has-gutter,.el-table__body-wrapper .is-scrolling-none,.card-body,.el-upload-dragger,.team .member-info,.team{
+  .el-notification .left,.has-gutter,.el-table__body-wrapper .is-scrolling-none,.card-body,.el-upload-dragger,.team .member-info,.team,.aplayer,.aplayer-body,.aplayer-music,.aplayer-lrc.aplayer-controller,.aplayer-list {
     background: #000;
     background-color: #000;
   }
@@ -783,7 +783,7 @@ section {
 
 .cta .cta-btn {
   font-family: "Raleway", sans-serif;
-  font-weight: 600;
+  font-weight: 500;
   font-size: 16px;
   letter-spacing: 1px;
   display: inline-block;
@@ -800,6 +800,7 @@ section {
   border-color: #ffc451;
   color: #151515;
   border-radius: 50px;
+  font-weight: 700;
 }
 
 /*--------------------------------------------------------------
@@ -1662,8 +1663,8 @@ form {
     left: 10%;
     margin: 50px 50px 50px 0;
   } 
-  #parent{
-  }
+
+
   #line{
     top: 50px;
     position: relative;
