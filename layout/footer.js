@@ -50,5 +50,5 @@ document.writeln("      <div class=\'credits\'>");
 document.writeln("        Designed by <span>Nakagawa - CHinaTsu</span>");
 document.writeln("        <i class=\'fa-brands fa-font-awesome\'></i><a class=\'user-select-none\'> </a><i class=\'bi bi-bootstrap\'></i><a class=\'user-select-none\'> </a><i class=\'fa-brands fa-html5\'></i><a class=\'user-select-none\'> </a><i class=\'fa-brands fa-edge\'></i>");
 document.writeln("      </div>");
-document.writeln("    </div>");
+document.writeln("    </div>"); 
 document.writeln("  </footer>");
