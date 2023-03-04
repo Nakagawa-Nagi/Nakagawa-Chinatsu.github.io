@@ -12,7 +12,7 @@ document.writeln("              <li class=\'dropdown\'><a><span>视频 Video</sp
 document.writeln("                <ul>");
 document.writeln("                  <li><a href=\'../../../../../../sources/video/Gate\'>The Gate of Two-dimensional</a></li>");
 document.writeln("                  <li><a href=\'../../../../../../sources/video/Full-Barrage\'>全弹幕 Full-Barrage</a></li>");
-document.writeln("                  <li><a href=\'../../../../../../sources/video/specials\'>精选 Specials</a></li>");
+// document.writeln("                  <li><a href=\'../../../../../../sources/video/specials\'>精选 Specials</a></li>");
 document.writeln("                  <li><a href=\'../../../../../../sources/video/lives\'>直播 Lives</a></li>");
 document.writeln("                  <li><a href=\'../../../../../../sources/video/films\'>影视 Films</a></li>")
 document.writeln("                </ul>");
