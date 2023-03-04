@@ -45,23 +45,23 @@
 
 @font-face{
   font-family: '华康翩翩体W5P';
-  src: url("https://link.icsin.top:81/fonts/华康翩翩体W5P.ttf");
+  src: url("../../../../../../assets/font/华康翩翩体W5P.ttf");
 }
 @font-face{
   font-family: 'Orbitron';
-  src: url(../../../../../../assets/font/Orbitron.ttf);
+  src: url("../../../../../../assets/font/Orbitron.ttf");
 }
 @font-face{
   font-family: 'minecraftia';
-  src: url(../../../../../../assets/font/minecraftia.ttf);
+  src: url("../../../../../../assets/font/minecraftia.ttf");
 }
 @font-face{
   font-family: '杨任东竹石体-Light';
-  src: url("https://link.icsin.top:81/fonts/杨任东竹石体-Light.ttf");
+  src: url("../../../../../../assets/font/杨任东竹石体-Light.ttf");
 }
 @font-face{
   font-family: '思源黑体 CN Light';
-  src: url('https://link.icsin.top:81/fonts/思源黑体 CN Light.otf');
+  src: url('../../../../../../assets/font/思源黑体 CN Light.otf');
 }
 
 body {
