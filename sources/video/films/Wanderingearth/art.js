@@ -1,6 +1,6 @@
 var art = new Artplayer({
     container: '.artplayer-app',
-    url: 'https://link.icsin.top:81/tomorrow/2022 Tomorrowland martin.mp4',
+    url: 'http://storage.live.com/items/C93D7448955DAB95!3514?authkey=AD9RZgkVfpveWZA',
     setting: true,
     playsInline: true,
     backdrop: true,
@@ -17,19 +17,6 @@ var art = new Artplayer({
     autoOrientation: true,
     loop: true,
     airplay: true,
-    customType: {
-        m3u8: function (video, url) {
-            if (Hls.isSupported()) {
-                const hls = new Hls();
-                hls.loadSource(url);
-                hls.attachMedia(video);
-            } else if (video.canPlayType('application/vnd.apple.mpegurl')) {
-                video.src = url;
-            } else {
-                art.notice.show = '不支持播放格式：m3u8';
-            }
-        },
-    },
     icons: {
         loading: '<img src="">',
         state: '<img width="150" heigth="150" src="https://artplayer.org/assets/img/state.svg">',
