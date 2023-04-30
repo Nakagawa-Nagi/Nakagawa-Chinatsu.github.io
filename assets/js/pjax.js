@@ -1,4 +1,4 @@
-var pjax = new Pjax({selectors: [".pjaxx","title"]});
+//var pjax = new Pjax({selectors: [".pjaxx","title"]});
 
 // function pjax_reload() {
 //   //其他需要重新加载的函数也可以添加在这里

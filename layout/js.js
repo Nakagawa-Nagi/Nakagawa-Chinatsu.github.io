@@ -12,3 +12,5 @@ document.writeln("  <script src=\'../../../../../../assets/js/main.js\'></script
 document.writeln("  <script type=\'text/javascript\' color=\'79,172,254\' opacity=\'0.7\' zIndex=\'-1\' count=\'200\' src=\'//cdn.bootcss.com/canvas-nest.js/1.0.0/canvas-nest.min.js\'></script>");
 document.writeln("<script src=\'https://cdn.jsdelivr.net/npm/pjax@0.2.8/pjax.min.js\'></script>");
 document.writeln("<script src=\'../../../../../../assets/js/pjax.js\'></script>");
+document.writeln("<script src=\'https://cdn.jsdelivr.net/npm/aplayer@1.10.1/dist/APlayer.min.js\'></script>");
+document.writeln("<link rel=\'stylesheet\' href=\'https://cdn.jsdelivr.net/npm/aplayer@1.10.1/dist/APlayer.min.css\'>");
