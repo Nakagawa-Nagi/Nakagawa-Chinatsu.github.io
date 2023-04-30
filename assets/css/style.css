@@ -42,28 +42,26 @@
   -webkit-box-shadow:inset006pxrgba(0,0,0,0);
   background-color: transparent;
 }
-
 @font-face{
   font-family: '华康翩翩体W5P';
-  src: url("../../../../../../assets/font/华康翩翩体W5P.ttf");
+  src: url("http://storage.live.com/items/C93D7448955DAB95!3517?authkey=ADwi7ncGG9nsk54");
 }
 @font-face{
   font-family: 'Orbitron';
-  src: url("../../../../../../assets/font/Orbitron.ttf");
+  src: url("http://storage.live.com/items/C93D7448955DAB95!3515?authkey=ACU8Jwmqp4uBjIQ");
 }
-@font-face{
+/*@font-face{
   font-family: 'minecraftia';
   src: url("../../../../../../assets/font/minecraftia.ttf");
-}
+}*/
 @font-face{
   font-family: '杨任东竹石体-Light';
-  src: url("../../../../../../assets/font/杨任东竹石体-Light.ttf");
+  src: url("http://storage.live.com/items/C93D7448955DAB95!3516?authkey=AGXhAaYmhdtpHS0");
 }
 @font-face{
   font-family: '思源黑体 CN Light';
-  src: url('../../../../../../assets/font/思源黑体 CN Light.otf');
+  src: url('http://storage.live.com/items/C93D7448955DAB95!3518?authkey=AD3DztHN0mQ-PdU');
 }
-
 body {
   font-family: "思源黑体 CN Light";
 }
