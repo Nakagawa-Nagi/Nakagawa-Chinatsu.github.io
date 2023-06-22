@@ -47,7 +47,7 @@ document.writeln("        &copy; Copyright 2021-2023<strong><span> ICS I.N.</spa
 document.writeln("      </div>");
 document.writeln("      <div class=\'credits\'>");
 document.writeln("        Designed by <span>Nakagawa - CHinaTsu</span>");
-document.writeln("        <i class=\'fa-brands fa-font-awesome\'></i><a class=\'user-select-none\'> </a><i class=\'bi bi-bootstrap\'></i><a class=\'user-select-none\'> </a><i class=\'fa-brands fa-html5\'></i><a class=\'user-select-none\'> </a><i class=\'fa-brands fa-edge\'></i>");
+document.writeln("        <i class=\'fa-brands fa-font-awesome\'></i><a class=\'user-select-none\'> </a><i class=\'bi bi-bootstrap\'></i><a class=\'user-select-none\'> </a><i class=\'fa-brands fa-html5\'></i><a class=\'user-select-none\'> </a><i class=\'fa-brands fa-edge\'></i><script type=\'text/javascript\'' src=\'//js.users.51.la/21697767.js\'></script>");
 document.writeln("      </div>");
 document.writeln("    </div>"); 
 document.writeln("  </footer>");
