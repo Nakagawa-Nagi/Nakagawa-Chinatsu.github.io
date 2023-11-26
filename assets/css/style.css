@@ -44,11 +44,11 @@
 }
 @font-face{
   font-family: '华康翩翩体W5P';
-  src: url("http://storage.live.com/items/C93D7448955DAB95!3517?authkey=ADwi7ncGG9nsk54");
+  src: url("../../../../../../assets/font/华康翩翩体W5P.ttf");
 }
 @font-face{
   font-family: 'Orbitron';
-  src: url("http://storage.live.com/items/C93D7448955DAB95!3515?authkey=ACU8Jwmqp4uBjIQ");
+  src: url("../../../../../../assets/font/Orbitron.ttf");
 }
 /*@font-face{
   font-family: 'minecraftia';
@@ -56,11 +56,11 @@
 }*/
 @font-face{
   font-family: '杨任东竹石体-Light';
-  src: url("http://storage.live.com/items/C93D7448955DAB95!3516?authkey=AGXhAaYmhdtpHS0");
+  src: url("../../../../../../assets/font/杨任东竹石体-Light.ttf");
 }
 @font-face{
   font-family: '思源黑体 CN Light';
-  src: url('http://storage.live.com/items/C93D7448955DAB95!3518?authkey=AD3DztHN0mQ-PdU');
+  src: url('../../../../../../assets/font/思源黑体 CN Light.otf');
 }
 
 a {
