@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<!--
+  ****        *************       ************
+  ****       **************      **************
+  ****       ***                 ***        ***
+  ****       ***                 ***
+  ****       ***                 ***
+  ****       ***                 ***
+  ****       ***                 *************
+  ****       ***                  *************
+  ****       ***                            ***
+  ****       ***                            ***
+  ****       ***                            ***
+  ****       ***                 ***        ***
+  ****       **************      **************
+  ****        *************       ************
+-->
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>ICS Sources</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <script type="text/javascript" src="../../../../../../layout/css.js"></script>
+  <style type="text/css">
+            .artplayer-app{
+          height: 360px;
+          width: 640px;
+          margin: 65px;
+          border-radius: 10px;
+          } 
+          #line{
+            max-width: 240px;
+            margin: 65px;
+            } 
+          #parent{
+              display: flex;
+              flex-wrap: wrap;
+              --bs-gutter-x: 1.5rem;
+              --bs-gutter-y: 0;
+              margin-top: calc(-1 * var(--bs-gutter-y));
+              margin-left: calc(-.5 * var(--bs-gutter-x))
+           }
+  </style>
+</head>
+
+<body>
+
+    <script type="text/javascript" src="../../../../../../layout/header.js"></script>
+
+  <main id="main">
+
+    <section class="breadcrumbs">
+      <div class="container">
+
+        <div class="d-flex justify-content-between align-items-center">
+          <h2>Inner Page</h2>
+          <ol>
+            <li><a href="../../../../../../">ICS</a></li>
+            <li><a href="../../../../../../sources/">Sources</a></li>
+            <li>Inner Page</li>
+          </ol>
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+<div id="parent">
+  <div class="artplayer-app"></div>
+  <div id="line">
+    <h4>———————————</h4>
+    <h4>Tips</h4>
+    <h7>....</h7>
+  </div>
+</div>
+
+  <script src="../../../../../../layout/footer.js"></script>
+
+  <div id="preloader"></div>
+
+  <script src="../../../../../../layout/js.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/flv.js@1.6.2/dist/flv.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/artplayer-plugin-danmuku/dist/artplayer-plugin-danmuku.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/artplayer@4.5.12/dist/artplayer.min.js"></script>
+  <script>var art = new Artplayer({
+    container: '.artplayer-app',
+    url: 'https://movie.mcas.jp/mcas/mx_live_2/master.m3u8',
+    isLive: true,
+    setting: true,
+    playsInline: true,
+    backdrop: true,
+    theme: '#FF69B4',
+    autoplay: true,
+    flip: true,
+    pip: true,
+    backdrop: true,
+    playbackRate: true,
+    miniProgressBar: true,
+    aspectRatio: true,
+    fullscreen: true,
+    fullscreenWeb: true,
+    autoOrientation: true,
+    loop: true,
+    airplay: true,
+    icons: {
+        loading: '<img src="">',
+        state: '<img width="150" heigth="150" src="https://artplayer.org/assets/img/state.svg">',
+        indicator: '<img width="16" heigth="16" src="https://artplayer.org/assets/img/indicator.svg">',
+    },
+        customType: {
+        m3u8: async function (video, url) {
+            const { default: Hls } = await import('hls.js');
+        },},
+});</script>
+
+</body>
+
+</html>

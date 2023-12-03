@@ -41,24 +41,24 @@
   }
 
   /**
-   * Navbar links active state on scroll
+   * Menu links active state on scroll
    */
-  let navbarlinks = select('#navbar .scrollto', true)
-  const navbarlinksActive = () => {
-    let position = window.scrollY + 200
-    navbarlinks.forEach(navbarlink => {
-      if (!navbarlink.hash) return
-      let section = select(navbarlink.hash)
+  let Menulinks = select('.menu__list .scrollto', true)
+  const MenulinksActive = () => {
+    let position = window.scrollY 
+    Menulinks.forEach(Menulink => {
+      if (!Menulink.hash) return
+      let section = select(Menulink.hash)
       if (!section) return
       if (position >= section.offsetTop && position <= (section.offsetTop + section.offsetHeight)) {
-        navbarlink.classList.add('active')
+        Menulink.classList.add('active')
       } else {
-        navbarlink.classList.remove('active')
+        Menulink.classList.remove('active')
       }
     })
   }
-  window.addEventListener('load', navbarlinksActive)
-  onscroll(document, navbarlinksActive)
+  window.addEventListener('load', MenulinksActive)
+  onscroll(document, MenulinksActive)
 
   /**
    * Scrolls to an element with header offset
@@ -282,6 +282,10 @@
    * Initiate Pure Counter 
    */
   new PureCounter();
-
+  var menu = select('menu__list', true)
+  const menuactive = () => {
+    menu.classList.remove('active'),
+    this.classList.add('active')
+  };
 })()
 

@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<!--
+  ****        *************       ************
+  ****       **************      **************
+  ****       ***                 ***        ***
+  ****       ***                 ***
+  ****       ***                 ***
+  ****       ***                 ***
+  ****       ***                 *************
+  ****       ***                  *************
+  ****       ***                            ***
+  ****       ***                            ***
+  ****       ***                            ***
+  ****       ***                 ***        ***
+  ****       **************      **************
+  ****        *************       ************
+-->
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>ICS Sources</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <script type="text/javascript" src="../../../../../../layout/css.js"></script>
+</head>
+
+<body>
+
+    <script type="text/javascript" src="../../../../../../layout/header.js"></script>
+
+  <main id="main">
+
+    <section class="breadcrumbs">
+      <div class="container">
+
+        <div class="d-flex justify-content-between align-items-center">
+          <h2>Inner Page</h2>
+          <ol>
+            <li><a href="../../../../../../">ICS</a></li>
+            <li><a href="../../../../../../sources/">Sources</a></li>
+            <li>Inner Page</li>
+          </ol>
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+  <div id="parenta">
+    <aside class="aside">
+      <nav class="menu thin-scrollbar ">
+        <ul class="menu__list">
+          <li class="taggs">
+            <div class="card bg-dark text-white" id="imgg">
+              <img src="cover/01.jpg" class="card-img">
+              <div class="card-img-overlay">
+                <h5 class="card-title">某科学的超电磁炮</h5>
+              </div>
+            </div>
+            <button type="button" onclick="art.on('ready', () => {art.switchUrl('https://artplayer.org/assets/sample/video.mp4?t=0');})" class="btn btn-primary">1</button>
+            <button type="button" onclick="art.url('')" class="btn btn-primary">2</button>
+            <button type="button" onclick="art.url('')" class="btn btn-primary">3</button>
+            <button type="button" onclick="art.url('')" class="btn btn-primary">4</button>
+            <button type="button" onclick="art.url('')" class="btn btn-primary">5</button>
+          </li>
+        </ul>
+      </nav>
+    </aside>
+    <div>
+    <div class="linee">
+      <h3>123</h3>
+    </div>
+    <div class="artplayer"></div>
+    </div>
+  </div>
+
+  <script src="../../../../../../layout/footer.js"></script>
+
+  <div id="preloader"></div>
+
+  <script src="../../../../../../layout/js.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/flv.js@1.6.2/dist/flv.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/artplayer-plugin-danmuku/dist/artplayer-plugin-danmuku.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/artplayer@4.5.12/dist/artplayer.min.js"></script>
+  <script src="art.js"></script>
+
+</body>
+
+</html>

@@ -172,3 +172,7 @@
       background-color: #87CEEB;
     border-radius: 10px;
     }
+
+.taggs .active {
+  background-color: #ffba00;
+}
