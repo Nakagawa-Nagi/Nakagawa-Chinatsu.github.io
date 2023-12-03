@@ -245,7 +245,7 @@
     speed: 600,
     loop: true,
     autoplay: {
-      delay: 5000,
+      delay: 4000,
       disableOnInteraction: false
     },
     slidesPerView: 'auto',
@@ -263,7 +263,7 @@
     AOS.init({
       duration: 1000,
       easing: "ease-in-out",
-      once: true,
+      once: false,
       mirror: false
     });
   });
@@ -287,5 +287,8 @@
     menu.classList.remove('active'),
     this.classList.add('active')
   };
+
+
+
 })()
 

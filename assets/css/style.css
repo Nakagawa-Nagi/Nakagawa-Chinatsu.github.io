@@ -799,7 +799,7 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Portfolio
+# portfolio
 --------------------------------------------------------------*/
 .portfolio .portfolio-item {
   margin-bottom: 30px;
@@ -925,7 +925,7 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Portfolio Details
+# portfolio Details
 --------------------------------------------------------------*/
 .portfolio-details {
   padding-top: 40px;
@@ -1516,6 +1516,11 @@ section {
   justify-content: center;
 }
 
+.container3{
+  max-width: 600px;
+  display: inline-block;
+}
+
 .card:hover{
   box-shadow: 0 0 15px 0px #458B00;
   transition: all 0.3s;
@@ -1888,4 +1893,39 @@ form {
 .foot-ul a{
   left: 7px;
   position: relative;
+}
+
+
+#portfolio-flters {
+  padding: 0;
+  margin: 0 auto 20px auto;
+  list-style: none;
+  text-align: center;
+}
+
+#portfolio-flters li {
+  cursor: pointer;
+  display: inline-block;
+  padding: 8px 15px 10px 15px;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 1;
+  text-transform: uppercase;
+  margin-bottom: 5px;
+  transition: all 0.3s ease-in-out;
+  border-radius: 3px;
+}
+
+#portfolio-flters li.filter-active {
+  color: #151515;
+  background: #ffc451;
+}
+#portfolio-flters li:hover{
+  border-radius: 0.5;  
+  color: #151515;
+  background: #ffc451;
+}
+
+#portfolio-flters li:last-child {
+  margin-right: 0;
 }

@@ -273,7 +273,7 @@ function _arrayWithoutHoles(arr) { if (Array.isArray(arr)) { for (var i = 0, arr
     speed: 600,
     loop: true,
     autoplay: {
-      delay: 5000,
+      delay: 4000,
       disableOnInteraction: false
     },
     slidesPerView: 'auto',
@@ -291,7 +291,7 @@ function _arrayWithoutHoles(arr) { if (Array.isArray(arr)) { for (var i = 0, arr
     AOS.init({
       duration: 1000,
       easing: "ease-in-out",
-      once: true,
+      once: false,
       mirror: false
     });
   });

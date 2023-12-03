@@ -13,3 +13,4 @@ document.writeln("  <script type=\'text/javascript\' color=\'79,172,254\' opacit
 document.writeln("<script src=\'https://cdn.bootcdn.net/ajax/libs/pjax/0.2.8/pjax.min.js\'></script>");
 document.writeln("<script src=\'../../../../../../assets/js/pjax.js\'></script>");
 document.writeln("<script src=\'https://cdn.bootcdn.net/ajax/libs/aplayer/1.10.1/APlayer.min.js\'></script>");
+document.writeln("<script src=\'https://cdn.bootcdn.net/ajax/libs/hls.js/1.4.12/hls.js\'></script>")
