@@ -6,7 +6,7 @@
   body {
     background-color: #000;
     color: #FFF;
-  }
+  }c
   .services .icon-box {
     background-color: transparent;
     color: #000;
@@ -140,6 +140,10 @@ h3 {
 @media screen and (max-width: 768px) {
   [data-aos-delay] {
     transition-delay: 0 !important;
+  }
+  .live2d-widget-container {
+    display: none;
+
   }
 }
 
@@ -540,7 +544,7 @@ h3 {
 
 @media (max-width: 768px) {
   #hero {
-    height: auto;
+    height: fixed;
   }
 
   #hero h1 {

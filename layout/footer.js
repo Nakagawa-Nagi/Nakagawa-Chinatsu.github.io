@@ -13,8 +13,6 @@ document.writeln("              <div class=\'social-links mt-3\'>");
 document.writeln("                <a href=\'https://github.com/ICS-Industrialism-Coalition\' class=\'twitter\'><i class=\'fa-brands fa-github\'></i></a>");
 document.writeln("                <a target=\'_blank\' href=\'http://steamcommunity.com/groups/icsin\' class=\'facebook\'><i class=\'fa-brands fa-steam\'></i></a>");
 document.writeln("                <a target=\'_blank\' href=\'http://discord.gg/SqXzxBJvZR\' class=\'instagram\'><i class=\'fa-brands fa-discord \'></i></a>");
-document.writeln("                <a target=\'_blank\' href=\'#\' class=\'google-plus\'><i class=\'bx bxl-skype\'></i></a>");
-document.writeln("                <a target=\'_blank\' href=\'#\' class=\'linkedin\'><i class=\'bx bxl-linkedin\'></i></a>");
 document.writeln("              </div>");
 document.writeln("            </div>");
 document.writeln("          </div>");
