@@ -544,7 +544,7 @@ h3 {
 
 @media (max-width: 768px) {
   #hero {
-    height: fixed;
+    height: auto;
   }
 
   #hero h1 {
