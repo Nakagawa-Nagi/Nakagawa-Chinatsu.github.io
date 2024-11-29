@@ -6,9 +6,8 @@ for /r %i in (*.mp4) do del "%i"
 for %i in (*.png) do ffmpeg -i "%i" -vf scale=416:-1 "%~ni.jpg" 图片缩略
 for %i in (*.mkv) do ffmpeg -i "%i.mkv" "%~ni.ass"
 ffmpeg -i video.mp4 -i audio.aac -c:v copy -c:a copy -bsf:a aac_adtstoasc output.mp4
-
-
-
+for %i in (*.flac) do ffmpeg -i "%i" -sample_fmt s16 "1%i"
+ffmpeg -i  -sample_fmt s16 
 
 
 
